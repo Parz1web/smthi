@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    text-align: center;
+}
+body{
+    background: url(https://sun9-24.userapi.com/impg/aKT0yOpiJh2UNwi_ciKGtNkRbk64TaP5D19voQ/MHkTaY8ZyuU.jpg?size=1440x1439&quality=96&sign=fb52a357159f01b7e056e97e5acb78f4&type=album);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color:#000;
+}
+
+.container{
+    height: 95vh;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.test{
+    padding: 50px 25px;
+    width: 500px;
+    height: 75vh;
+    margin: auto;
+    background: #fff;
+    border-radius: 7%;
+    box-shadow: 1px 2px 23px 0px rgba(50, 50, 50, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.counter{
+    font-size: 2.5rem;
+}
+.button{
+    font-size: 1.5rem;
+    & + .button{
+        margin-top: 25px;
+    }
+    & a:hover{
+        color:rgb(63, 160, 184);
+        transition: 0.4s;
+    }
+}
