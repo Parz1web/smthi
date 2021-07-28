@@ -40,6 +40,9 @@ a{
 }
 .button{
     font-size: 1.5rem;
+    &s{
+        height: 100px;
+    }
     & + .button{
         margin-top: 25px;
     }

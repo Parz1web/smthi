@@ -59,6 +59,10 @@ a {
   font-size: 1.5rem;
 }
 
+.buttons {
+  height: 100px;
+}
+
 .button + .button {
   margin-top: 25px;
 }
